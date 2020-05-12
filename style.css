@@ -1,0 +1,137 @@
+/**{margin: 0;padding: 0};*/
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to left,#fff 80%,#c3f5ff 20%);
+}
+.navsection{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(to top,#fff 80%,#c3f5ff 20%);
+}
+.logo{
+	width: 40%;
+	color: #fff;
+	background-image: linear-gradient(#8d98e3 40%,#854fee 60%);
+	padding-left: 100px;
+	box-sizing: border-box; 
+}
+.logo h2{
+	text-transform: uppercase;
+	font-size:1.6rem;
+	
+	animation: aagepichhe 3s linear infinite;
+	animation-direction: alternate;
+}
+@keyframes aagepichhe
+
+{
+	from{padding-left: 100px;}
+	to{padding-right: 80px;}
+}
+nav{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+}
+nav a{
+	text-decoration: none;
+	font-size: 17px;
+	position: relative;
+	color: #000;
+	font-weight: 900;
+
+}
+nav a:first-child{
+	color: blue;
+}
+nav a:before{
+	content: "";
+	position: absolute;
+	top: 110%;
+	left: 0;
+	height: 2px;
+	width: 0;
+	border-bottom: 2px solid #8d98e3;
+	transition: all 0.4s linear;
+
+}
+nav a:hover:before{
+width: 100%;
+}
+main{
+	height: 80vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.rightside {
+
+	background:#c3f5ff;
+
+width: 30rem;
+height: 20rem;
+	border-radius:30% 70% 70% 30% / 30% 30% 70% 70%  ;
+}
+
+.rightside img{
+max-width: 400px;
+height: auto;
+align-items: left;
+}
+.leftside{
+	color:black;
+	text-transform: uppercase;
+
+}
+.leftside h2{
+	font-size: 40px;
+	margin-bottom: 20px;
+	position: relative;
+}
++
+.leftside h1{
+	margin-top: 20px;
+	margin-bottom: 25px;
+	font-size: 70px;
+}
+.leftside h3{
+	font-weight:  400;
+
+	margin-bottom: 35px;
+	word-spacing: 4px;
+}
+.leftside .btn1{
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 14px;
+	text-align: center;
+	padding: 12px 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 50px;
+	color: #fff;
+	background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+	border:double 8px transparent;
+box-shadow: 100px 100px 300px(118,85,225,.9);
+
+}
+.leftside .btn2{
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 14px;
+	text-align: center;
+	padding: 12px 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 50px;
+	color: #fff;
+	background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%);
+	border:double 8px transparent;
+box-shadow: 100px 100px 300px(118,85,225,.9);
+background-color: #fff;
+
+}

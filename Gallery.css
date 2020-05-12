@@ -1,0 +1,29 @@
+img{
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	transition: all 2s;
+}
+img:hover{
+	transform: scale(1.1);
+}
+h1{
+	border-bottom: 5px solid green;
+text-align: center;
+	font-family:serif;
+	font-style: italic;
+	font-size: 3em;
+	width: 400px;
+	font-weight: normal;
+	border-right: 5px solid pink;
+	box-shadow: 10px 5px 10px blue;
+}
+.hamz{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: stretch;
+	align-content: flex-start;
+
+    
+}
