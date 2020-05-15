@@ -44,7 +44,7 @@ body{
 	font-size: 18px;
 	margin-top: 6px;
 }
-.btn{
+.subm{
 	display: inline-block;
 	background:#9b59b6;
 	padding: 14px 0;
@@ -55,7 +55,7 @@ body{
 	width: 100%;
 
 }
-.btn:hover{
+.subm:hover{
 background-color: #f44336;
 cursor: pointer;
 }
