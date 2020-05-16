@@ -35,7 +35,7 @@ header{
 nav{
 	width: 40%;
 	/*height: 20%;*/
-	font-size: 30px;
+	font-size: 20px;
 	display: flex;
 	justify-content: space-around;
 }
