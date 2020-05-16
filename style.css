@@ -50,6 +50,18 @@ nav a{
 nav a:first-child{
 	color: blue;
 }
+.a1{
+	color: green;
+}
+.a2{
+	color: pink;
+}
+.a3{
+	color: orange;
+}
+.a4{
+	color:violet;
+}
 nav a:before{
 	content: "";
 	position: absolute;
